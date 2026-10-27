@@ -1,92 +1,79 @@
-# StudentManagementSystem
+# Student Management System
 
-C++ Student Management System
+A console-based Student Management System developed using C++ to practice programming fundamentals, arrays, functions, file handling, and input validation.
 
-\# Student Management System
+## Features
 
+- Add new student records
+- Display all students
+- Search students by ID
+- Update student information
+- Delete student records
+- Sort students by GPA in descending order
+- Save student data to a file
+- Load saved data when the program starts
+- Validate user input and prevent duplicate student IDs
 
+## Student Information
 
-A console-based student management application developed using C++.
+Each student record contains:
 
+- ID
+- Name
+- Age
+- Major
+- GPA
 
+## Technologies
 
-\## Features
+- C++
+- Standard Template Library (`string`)
+- File handling (`fstream`)
+- Git and GitHub
 
+## How to Run
 
+1. Clone or download this repository.
+2. Open `main.cpp` in a C++ IDE or editor.
+3. Compile the source file using a C++ compiler.
+4. Run the compiled program.
 
-\- Add new students
+Example using g++:
 
-\- Display all students
+```bash
+g++ main.cpp -o StudentManagementSystem
+```
 
-\- Search students by ID
+On Windows, run:
 
-\- Update student information
+```bash
+StudentManagementSystem.exe
+```
 
-\- Delete students by ID
+## Data Storage
 
-\- Sort students by GPA in descending order
+Student records are stored in `students.txt`. The program loads saved records when it starts and saves changes to the file.
 
+## Learning Objectives
 
+This project demonstrates practical experience with:
 
-\## Technologies
+- C++ functions and structures
+- Arrays and loops
+- Conditional statements and switch-case menus
+- Input validation and error handling
+- Searching and sorting algorithms
+- File input/output operations
 
+## Future Improvements
 
+- Replace fixed-size arrays with `std::vector`
+- Apply object-oriented programming with classes
+- Add automated tests
+- Improve data storage and error handling
 
-\- C++
+## Author
 
-\- Structures and arrays
-
-\- Loops and conditional statements
-
-\- Functions of basic data management
-
-\- Bubble Sort
-
-\- Git and GitHub
-
-
-
-\## How to Run
-
-
-
-1\. Clone or download this repository.
-
-2\. Open `main.cpp` in a C++ compiler or IDE.
-
-3\. Compile and run the program.
-
-4\. Follow the console menu to manage student records.
-
-
-
-\## Data Storage
-
-
-
-Student records are currently stored in memory. The data is cleared when the program exits.
-
-
-
-\## Learning Objectives
-
-
-
-This project was created to practice C++ programming fundamentals, data manipulation, sorting algorithms, and Git version control.
-
-
-
-\## Future Improvements
-
-
-
-\- Save student records to a file
-
-\- Validate user input
-
-\- Prevent duplicate student IDs
-
-\- Improve the user interface
-
+Computer Engineering / Semiconductor IC Design student interested in digital design, embedded systems, and semiconductor technology.
 
 
